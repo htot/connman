@@ -45,6 +45,16 @@ folders:
     bookmarks: [kramdowntoc, images_section]
     pdf: true
 
+- title: Use cases
+  pdf: true
+  jurl: /minitoc_theme_intro.html
+
+  folderitems:
+  - title: Make a Wifi Access point
+    jurl: /1.1-make-wifi-ap.html
+    ref: 1.1-make-wifi-ap
+    pdf: true
+    bookmarks: [breadcrumbsection]
 
 ###########################
 

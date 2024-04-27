@@ -1,0 +1,53 @@
+sidebarTitle: Generic
+
+## See the generic.yml file as an example of the allowed yaml format.
+
+folders:
+
+- title: Frontmatter
+  jurl: /frontmatter.html
+  type: frontmatter
+  pdf: true
+  folderitems:
+
+  - title: Title page
+    jurl: /pdf_title_page.html
+    pdf: true
+
+  - title: Copyright
+    jurl: /pdf_copyright_page.html
+    pdf: true
+
+  - title: TOC page
+    jurl: /pdf_toc_page.html
+    pdf: true
+
+- title: Introduction
+  pdf: true
+  jurl: /minitoc_theme_intro.html
+
+  folderitems:
+  - title: About
+    jurl: /0.1-about.html
+    ref: 0.1-about
+    pdf: true
+    bookmarks: [breadcrumbsection]
+
+  - title: Description
+    jurl: /0.2-description.html
+    ref: 0.2-description
+    bookmarks: [sidebarentries]
+    pdf: true
+
+  - title: Release notes
+    jurl: /0.3-release_notes.html
+    ref: 0.3-release_notes
+    bookmarks: [kramdowntoc, images_section]
+    pdf: true
+
+
+###########################
+
+
+###########################
+

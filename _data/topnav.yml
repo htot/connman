@@ -1,0 +1,29 @@
+## Topnav single links
+ ## if you want to list an external url, use url instead of url. the theme will apply a different link base.
+
+navbar_singleitems:
+- items:
+  # - title: Some entry
+  #   url: http://example.com
+  # - title: Contact
+  #   url: contact.html
+
+
+
+navbar_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Other Connman resources
+      folderitems:
+        - title: Connman Wikipedia
+          url: https://en.wikipedia.org/wiki/ConnMan
+        - title: Archlinux wiki
+          url: https://wiki.archlinux.org/title/ConnMan
+        - title: Gento wiki
+          url: https://wiki.gentoo.org/wiki/Connman
+        - title: Stackoverflow
+          url: https://stackoverflow.com/questions/tagged/connman
+    - title: Documentation resources
+      folderitems:
+        - title: Content and Formatting
+          url: https://idratherbewriting.com/documentation-theme-jekyll/

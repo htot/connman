@@ -1,0 +1,21 @@
+about_title: About the Documentation
+about_description: >
+  Here is the original Connman documentation retrieved from web.archive.org. Additionally here is room to document common use cases.
+
+column1_title: Column 1
+column1_links:
+  -
+    target: http://someurl1.com
+    text: Column 1 Link 1
+
+column2_title: Column 2
+column2_links:
+  -
+    target: http://someurl1.com
+    text: Column 2 Link 1
+
+column3_title: Column 3
+column3_links:
+  -
+    target: http://someurl1.com
+    text: Column 3 Link 1
